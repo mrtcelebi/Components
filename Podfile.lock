@@ -1,0 +1,20 @@
+PODS:
+  - MobilliumBuilders (1.4.2)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - MobilliumBuilders (~> 1.4)
+  - TinyConstraints (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - MobilliumBuilders
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  MobilliumBuilders: 48c29da981a9593ac7f7873d154f9a76b80ffcab
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 95f96578ab82d63e27614cc5d05cdf713ddb294b
+
+COCOAPODS: 1.11.3

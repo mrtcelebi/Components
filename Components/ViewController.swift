@@ -8,12 +8,28 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    private let circleProgressView = MultipleCircleProgressView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        addSubviews()
+        configureContents()
+    }
+    
+    private func addSubviews() {
+        view.addSubview(circleProgressView)
+        circleProgressView.centerInSuperview()
+        circleProgressView.size(.init(width: 250, height: 250))
     }
 
-
+    private func configureContents() {
+        let items = [CircleWithTitleProgressView(amount: 3000, maxAmount: 5000, title: "Bakiye", progressColor: .green),
+                     CircleWithTitleProgressView(amount: 2000, maxAmount: 5000, title: "Döviz", progressColor: .green),
+                     CircleWithTitleProgressView(amount: 1000, maxAmount: 5000, title: "Borç", progressColor: .green),
+                     CircleWithTitleProgressView(amount: 5000, maxAmount: 5000, title: "Bono", progressColor: .green),
+                     CircleWithTitleProgressView(amount: 4000, maxAmount: 5000, title: "Fon", progressColor: .green)]
+        
+        circleProgressView.cellItems = items
+    }
 }
-

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		675B80F5900FB680A01DDEDB /* Pods_Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A02BB2490C117ACB4AD1DF /* Pods_Components.framework */; };
+		A200F0EE28B62502004B9D43 /* SuisseIntl-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A200F0ED28B62502004B9D43 /* SuisseIntl-Medium.otf */; };
+		A200F0F028B6250C004B9D43 /* SuisseIntl-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = A200F0EF28B6250C004B9D43 /* SuisseIntl-Book.otf */; };
+		A200F0F228B62517004B9D43 /* SuisseIntl-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A200F0F128B62517004B9D43 /* SuisseIntl-SemiBold.otf */; };
+		A200F0F428B62520004B9D43 /* SuisseIntl-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A200F0F328B62520004B9D43 /* SuisseIntl-Regular.otf */; };
+		A20C8CBE28B7748200DFC89F /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C8CBD28B7748200DFC89F /* TestButton.swift */; };
 		A2382A8328B00E4800451FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2382A8228B00E4800451FB1 /* AppDelegate.swift */; };
 		A2382A8528B00E4800451FB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2382A8428B00E4800451FB1 /* SceneDelegate.swift */; };
 		A2382A8728B00E4800451FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2382A8628B00E4800451FB1 /* ViewController.swift */; };
@@ -21,6 +26,11 @@
 		1D9B90240ACF5D14259F3DCA /* Pods-Components.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.release.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.release.xcconfig"; sourceTree = "<group>"; };
 		23A02BB2490C117ACB4AD1DF /* Pods_Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC5B1A3C1A2891D66F00476 /* Pods-Components.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Components.debug.xcconfig"; path = "Target Support Files/Pods-Components/Pods-Components.debug.xcconfig"; sourceTree = "<group>"; };
+		A200F0ED28B62502004B9D43 /* SuisseIntl-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SuisseIntl-Medium.otf"; sourceTree = "<group>"; };
+		A200F0EF28B6250C004B9D43 /* SuisseIntl-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SuisseIntl-Book.otf"; sourceTree = "<group>"; };
+		A200F0F128B62517004B9D43 /* SuisseIntl-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SuisseIntl-SemiBold.otf"; sourceTree = "<group>"; };
+		A200F0F328B62520004B9D43 /* SuisseIntl-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SuisseIntl-Regular.otf"; sourceTree = "<group>"; };
+		A20C8CBD28B7748200DFC89F /* TestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButton.swift; sourceTree = "<group>"; };
 		A2382A7F28B00E4800451FB1 /* Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Components.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2382A8228B00E4800451FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2382A8428B00E4800451FB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,10 +88,15 @@
 				A2382A8428B00E4800451FB1 /* SceneDelegate.swift */,
 				A2382A8628B00E4800451FB1 /* ViewController.swift */,
 				A2D26CCB28B010DF0029B4F8 /* CircleProgressView.swift */,
+				A200F0F128B62517004B9D43 /* SuisseIntl-SemiBold.otf */,
+				A200F0F328B62520004B9D43 /* SuisseIntl-Regular.otf */,
+				A200F0EF28B6250C004B9D43 /* SuisseIntl-Book.otf */,
+				A200F0ED28B62502004B9D43 /* SuisseIntl-Medium.otf */,
 				A2382A8828B00E4800451FB1 /* Main.storyboard */,
 				A2382A8B28B00E5000451FB1 /* Assets.xcassets */,
 				A2382A8D28B00E5000451FB1 /* LaunchScreen.storyboard */,
 				A2382A9028B00E5000451FB1 /* Info.plist */,
+				A20C8CBD28B7748200DFC89F /* TestButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -154,8 +169,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A200F0F028B6250C004B9D43 /* SuisseIntl-Book.otf in Resources */,
 				A2382A8F28B00E5000451FB1 /* LaunchScreen.storyboard in Resources */,
+				A200F0EE28B62502004B9D43 /* SuisseIntl-Medium.otf in Resources */,
+				A200F0F228B62517004B9D43 /* SuisseIntl-SemiBold.otf in Resources */,
 				A2382A8C28B00E5000451FB1 /* Assets.xcassets in Resources */,
+				A200F0F428B62520004B9D43 /* SuisseIntl-Regular.otf in Resources */,
 				A2382A8A28B00E4800451FB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20C8CBE28B7748200DFC89F /* TestButton.swift in Sources */,
 				A2382A8728B00E4800451FB1 /* ViewController.swift in Sources */,
 				A2D26CCC28B010DF0029B4F8 /* CircleProgressView.swift in Sources */,
 				A2382A8328B00E4800451FB1 /* AppDelegate.swift in Sources */,

@@ -11,6 +11,8 @@ class ViewController: UIViewController {
     
     private let circleProgressView = MultipleCircleProgressView()
 
+    private let button = TestButton()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         addSubviews()
@@ -21,6 +23,11 @@ class ViewController: UIViewController {
         view.addSubview(circleProgressView)
         circleProgressView.centerInSuperview()
         circleProgressView.size(.init(width: 250, height: 250))
+        
+        view.addSubview(button)
+        button.topToBottom(of: circleProgressView).constant = 50
+        button.size(.init(width: 200, height: 50))
+        button.centerXToSuperview()
     }
 
     private func configureContents() {
